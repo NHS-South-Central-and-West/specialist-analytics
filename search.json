@@ -1,0 +1,26 @@
+[
+  {
+    "objectID": "meet-the-team.html",
+    "href": "meet-the-team.html",
+    "title": "Meet the Team",
+    "section": "",
+    "text": "Meet the Team page",
+    "crumbs": [
+      "Meet the Team"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "specialist-analytics",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  }
+]
