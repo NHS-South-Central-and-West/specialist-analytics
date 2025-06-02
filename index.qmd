@@ -1,5 +1,9 @@
 ---
 title: "specialist-analytics"
+
+format:
+  html:
+    page-layout: full
 ---
 
 This is a Quarto website.

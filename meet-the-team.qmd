@@ -1,6 +1,10 @@
 ---
 title: "Meet the Team"
-format: html
+
+
+format:
+  html:
+    page-layout: full
 ---
 
 Meet the Team page
