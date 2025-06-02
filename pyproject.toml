@@ -1,0 +1,16 @@
+[project]
+name = "specialist-analytics"
+version = "0.1.0"
+description = "SAT's blog website"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "great-tables>=0.17.0",
+    "jinja2>=3.1.6",
+    "jupyterlab>=4.3.5",
+    "pandas>=2.2.3",
+    "polars>=1.25.2",
+    "pyyaml>=6.0.2",
+    "quarto>=0.1.0",
+    "rsconnect-python>=1.25.2",
+]
