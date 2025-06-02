@@ -2,18 +2,85 @@ project:
   type: website
 
 website:
-  title: "specialist-analytics"
+  image: "images/scw_logo_dark.jpg"
+  page-footer:
+    left: "Created and maintained by the [Specialist Analytics Team](mailto:scwcsu.analytics.specialist@nhs.net)"
+    right: "This page was built with [Quarto](https://quarto.org/)"
+
+
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    background: "#1C355E" # SCW Dark Blue
+    logo: "images/scw_logo_dark.jpg"
+    # pinned: true
+    # align: center
+    # style: docked
+    search: true
+    # collapse-level: 1
+    tools:
+      - icon: github
+        aria-label: GitHub
+        href: https://github.com/NHS-South-Central-and-West/specialist-analytics
+    right:
+      - text: Home
+        aria-label: Home
+        href: index.qmd
+
+  sidebar:
+    - title: Meet the Team
+      style: docked
+      contents:
+        - text: Meet the Team
+          file: meet-the-team.qmd
+        
 
 format:
   html:
     theme: cosmo
     css: styles.css
-    toc: true
+    toc: true # table of contents
+    code-copy: true
+    callout-appearance: simple
+  revealjs:
+    author: Specialist Analytics Team (SAT)
+    menu: false
+    controls: true
+    section-divs: true
+    preview-links: false
+    link-external-newwindow: true
+    embed-resources: true
+    transition: fade
+    background-transition: fade
+    navigation-mode: linear
+    email-obfuscation: javascript
+    theme: slides-theme
+    progress: true
+    multiplex: false
+    scrollable: false
+    hide-inactive-cursor: true
+    highlight-style: printing
+    pause: true
+    fig-width: 6
+    fig-height: 7
+    fig-align: center
+    output-location: column
+
+editor: source
+
+execute:
+  freeze: auto
+  echo: true
+  warning: false
+
+revealjs-plugins:
+  - verticator
+
+title-slide-attributes:
+    data-background-image: "images/scw_logo.jpg"
+    data-background-position: "right 5% bottom 5%"
+    data-background-size: "22%"
+    data-background-opacity: "1"
+
+from: markdown+emoji
 
 
 
